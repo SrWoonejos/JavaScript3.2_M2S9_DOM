@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>OnePunchMAnDOM</title>
 </head>
 <body>
-    <div class="caja1 container">
-        <div id="text1" onmouseover="mostrarText2()" onmouseout="ocultarText2()">
+    <div class="caja1 container" style="background-color: aquamarine; padding: 80;">
+        <div id="text1" onmouseover="mostrarText()" onmouseout="ocultarText()">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
         </div>
-        <div id="text2" style="display: none;">
+    </div>
+
+    <div id="caja2" ondblclick="agrandarTexto()">
+        <div id="text2" style="background-color: yellowgreen; padding: 100">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
         </div>
     </div>
@@ -20,11 +23,12 @@
     </div>
     
     <div id="caja3" ondblclick="agrandarTexto()">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+        <div id="text3" style= "frontfont-size">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+        </div>
     </div>
 
-    
-    
+    <script src="Assets/script.js"> </script>
 </body>
 </html>
 
