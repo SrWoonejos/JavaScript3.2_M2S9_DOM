@@ -1,8 +1,8 @@
-function mostrarText2() {
+function mostrarMsj() {
     document.getElementById("text2").style.display = "block";
 }
 
-function ocultarText2() {
+function ocultarMsj() {
     document.getElementById("text2").style.display = "none";
 }
 
