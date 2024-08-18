@@ -15,6 +15,7 @@ function reducirImagen() {
 }
 
 function agrandarTexto() {
+    const div = document.getElementById(caja3);
     document.getElementById("caja3").style.fontSize = "2em";
 }
 
